@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;  
+}
+
+html, body {
+    min-height: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 40px;
+    
+}
+
+header > h1 {
+    font-family: 'Passion One', sans-serif;
+    font-weight: bold;
+    font-size: 10vw;
+}
+
+header > p {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;   
+}
+
+a {
+   font-weight: bold; 
+   text-decoration: none;
+   color: white;
+}
+
+section {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+#img1 {
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+#img2 {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px ;
+}
+
+.fundo {
+    color: white;
+}
+
+.fundo > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.384); 
+    padding-bottom: 0px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center
+}
+
